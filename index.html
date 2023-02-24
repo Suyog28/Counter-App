@@ -7,13 +7,18 @@
   </head>
   <body>
     <div
-      class="w-1400 flex justify-center justify-items-center bg-red-400 gap-8"
+      class="w-[100vw] h-[100vh] flex flex-col justify-center items-center bg-red-400 gap-8"
     >
-      <div class="">
-        <button>Decrement <i class="fa-solid fa-square-minus"></i></button>
+      <div class="text-[#ffffff] font-medium text-[20px]">
+        Increment And Decrement
       </div>
-      <div>0</div>
-      <div class="">Increment <i class="fa-solid fa-square-plus"></i></div>
+
+        <!--secondary wrapper-->
+        <div class="bg-white flex text-[25px] text-[#344151] rounded-sm gap-12 p-3 px-5">
+        <button class="border-r-2 border-[#bfbfbf] pr-5">Decrement <i class="fa-solid fa-square-minus"></i></button>
+   
+     <div id="counter" class="font-bold">0</div>
+     <button class="border-r-2 border-[#bfbfbf] pr-5">Increment <i class="fa-solid fa-square-plus"></i></button> 
     </div>
     <link
       rel="stylesheet"
@@ -22,5 +27,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="index.js"></script>
   </body>
 </html>
